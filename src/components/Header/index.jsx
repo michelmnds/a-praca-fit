@@ -8,9 +8,31 @@ export const Header = () => {
       <span className="title">A PRAÇA</span>
 
       <div className="iconContainer">
-        <img className="icon" src={instagram} alt="instagram" />
+        <a
+          className="icon"
+          style={{
+            backgroundImage: `url(${instagram})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          alt="instagram"
+          href="https://www.instagram.com/apracacfit/"
+          target="_blank"
+          rel="noreferrer"
+        />
 
-        <img className="icon" src={facebook} alt="facebook" />
+        <a
+          className="icon"
+          style={{
+            backgroundImage: `url(${facebook})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          alt="facebook"
+          href="https://www.facebook.com/A-Pra"
+          target="_blank"
+          rel="noreferrer"
+        />
       </div>
     </header>
   );

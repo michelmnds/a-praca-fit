@@ -10,7 +10,12 @@ export const MidSec = () => {
 
       <p className="midP">Para mais informações</p>
 
-      <a className="midBtn" href="https://www.facebook.com/A-Pra">
+      <a
+        className="midBtn"
+        target="_blank"
+        href="https://www.facebook.com/A-Pra"
+        rel="noreferrer"
+      >
         CLIQUE AQUI
       </a>
     </div>

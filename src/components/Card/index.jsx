@@ -1,9 +1,13 @@
 import "./style.css";
 
 // eslint-disable-next-line react/prop-types
-export const Card = ({ name, image }) => {
+export const Card = ({ name, image, instagram }) => {
+  const handleCardClick = () => {
+    window.open(instagram, "_blank");
+  };
+
   return (
-    <div className="cardContainer">
+    <div onClick={handleCardClick} className="cardContainer">
       <div
         className="cardImage"
         style={{

@@ -21,6 +21,7 @@ function App() {
               key={personal.id}
               name={personal.name}
               image={personal.image}
+              instagram={personal.instagram}
             />
           );
         })}

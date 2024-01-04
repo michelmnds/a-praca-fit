@@ -6,6 +6,7 @@ export const data = [
     flag: "./assets/brazil.png",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga blanditiis assumenda ab praesentium nihil nulla dicta autem voluptatibus? Ipsa doloribus possimus distinctio vero nostrum soluta aspernatur quia quisquam laudantium et.",
     image: "./assets/murilo.png",
+    instagram: "https://www.instagram.com/murilo_mmendes",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const data = [
     flag: "./assets/portugal.jpeg",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga blanditiis assumenda ab praesentium nihil nulla dicta autem voluptatibus? Ipsa doloribus possimus distinctio vero nostrum soluta aspernatur quia quisquam laudantium et.",
     image: "./assets/miguel.png",
+    instagram: "?",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const data = [
     flag: "./assets/portugal.jpeg",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga blanditiis assumenda ab praesentium nihil nulla dicta autem voluptatibus? Ipsa doloribus possimus distinctio vero nostrum soluta aspernatur quia quisquam laudantium et.",
     image: "./assets/sandra.png",
+    instagram: "https://www.instagram.com/sandrarcvicente",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ export const data = [
     flag: "./assets/portugal.jpeg",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga blanditiis assumenda ab praesentium nihil nulla dicta autem voluptatibus? Ipsa doloribus possimus distinctio vero nostrum soluta aspernatur quia quisquam laudantium et.",
     image: "./assets/joao.png",
+    instagram: "https://www.instagram.com/jtiago_personaltrainer",
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ export const data = [
     flag: "./assets/portugal.jpeg",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga blanditiis assumenda ab praesentium nihil nulla dicta autem voluptatibus? Ipsa doloribus possimus distinctio vero nostrum soluta aspernatur quia quisquam laudantium et.",
     image: "./assets/patricia.png",
+    instagram: "https://www.instagram.com/patriicialourenco",
   },
   {
     id: 6,
@@ -46,5 +51,6 @@ export const data = [
     flag: "./assets/portugal.jpeg",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga blanditiis assumenda ab praesentium nihil nulla dicta autem voluptatibus? Ipsa doloribus possimus distinctio vero nostrum soluta aspernatur quia quisquam laudantium et.",
     image: "./assets/andre.png",
+    instagram: "https://www.instagram.com/andreribeiro04",
   },
 ];
