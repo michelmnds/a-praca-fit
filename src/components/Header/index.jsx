@@ -1,5 +1,6 @@
 import "./style.css";
-import home from "../../assets/home.png";
+import instagram from "../../assets/instagram.png";
+import facebook from "../../assets/facebook.png";
 
 export const Header = () => {
   return (
@@ -7,7 +8,9 @@ export const Header = () => {
       <span className="title">A PRAÇA</span>
 
       <div className="iconContainer">
-        <img className="home" src={home} alt="home" />
+        <img className="icon" src={instagram} alt="instagram" />
+
+        <img className="icon" src={facebook} alt="facebook" />
       </div>
     </header>
   );

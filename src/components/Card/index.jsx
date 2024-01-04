@@ -9,8 +9,8 @@ export const Card = ({ name, image }) => {
         style={{
           backgroundRepeat: "no-repeat",
           backgroundImage: `url(/src/${image})`,
-          backgroundSize: 100,
-          backgroundPosition: "center",
+          backgroundSize: 175,
+          backgroundPosition: "top",
           backgroundColor: "white",
         }}
       />

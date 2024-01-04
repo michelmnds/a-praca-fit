@@ -1,6 +1,8 @@
 import { Header } from "./components/Header";
 import { Background } from "./components/Backgroud";
 import { Card } from "./components/Card";
+import { MidSec } from "./components/Mid-sec";
+
 import { data } from "./data";
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <>
       <Header />
       <Background />
+      <MidSec />
 
       <h1>Personal Trainers</h1>
 

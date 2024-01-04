@@ -3,17 +3,31 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     padding: 10px;
+
+    border-bottom: 2px solid var(--primary-red);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 .title {
     color: var(--primary-white);
 
     font-size: 1.2rem;
 
-    margin: 0px 100px 0px 100px;
+    font-weight: bolder;
 }
-.home{
+.icon{
     width: 20px;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
 }
