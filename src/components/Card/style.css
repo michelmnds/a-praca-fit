@@ -1,0 +1,14 @@
+.cardContainer{
+    width: 90px;
+    height: 120px;
+
+    background-color: black;
+
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.cardImage{
+    width: 90px;
+    height: 70px;
+}
