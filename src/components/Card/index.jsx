@@ -12,7 +12,7 @@ export const Card = ({ name, image, instagram }) => {
         className="cardImage"
         style={{
           backgroundRepeat: "no-repeat",
-          backgroundImage: `url(/src/${image})`,
+          backgroundImage: `url(${image})`,
           backgroundSize: 175,
           backgroundPosition: "top",
           backgroundColor: "white",
