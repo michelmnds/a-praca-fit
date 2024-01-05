@@ -25,7 +25,6 @@
 
     margin-top: 5px;
 }
-
 @media(width >= 1024px){
     .cardContainer{
         width: 150px;
