@@ -10,22 +10,23 @@ function App() {
     <>
       <Header />
       <Background />
-      <MidSec />
+      <div className="midSec">
+        <MidSec />
 
-      <h1>Personal Trainers</h1>
-
-      <main>
-        {data.map((personal) => {
-          return (
-            <Card
-              key={personal.id}
-              name={personal.name}
-              image={personal.image}
-              instagram={personal.instagram}
-            />
-          );
-        })}
-      </main>
+        <h1>Personal Trainers</h1>
+        <main>
+          {data.map((personal) => {
+            return (
+              <Card
+                key={personal.id}
+                name={personal.name}
+                image={personal.image}
+                instagram={personal.instagram}
+              />
+            );
+          })}
+        </main>
+      </div>
     </>
   );
 }

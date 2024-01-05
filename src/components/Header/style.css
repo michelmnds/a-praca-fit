@@ -32,3 +32,44 @@
 
     gap: 5px;
 }
+
+@media(width >= 1024px){
+    .headerContainer{
+        height: 70px;
+        padding: 10px 40px 10px 40px;
+
+        border-bottom: 4px solid var(--primary-red);
+
+    }
+    .title {
+        color: var(--primary-white);
+    
+        font-size: 1.5rem;
+    
+        font-weight: bolder;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }   
+}
+@media(width >= 1440px){
+    .headerContainer{
+        height: 70px;
+        padding: 10px 40px 10px 40px;
+
+        border-bottom: 4px solid var(--primary-red);
+
+    }
+    .title {
+        color: var(--primary-white);
+    
+        font-size: 1.5rem;
+    
+        font-weight: bolder;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }   
+}

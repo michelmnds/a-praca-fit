@@ -29,7 +29,7 @@ export const Header = () => {
             backgroundPosition: "center",
           }}
           alt="facebook"
-          href="https://www.facebook.com/A-Pra"
+          href="https://www.facebook.com/people/A-Pra%C3%A7a-Clube-de-Fitness/100061317712253/"
           target="_blank"
           rel="noreferrer"
         />

@@ -13,7 +13,7 @@ export const MidSec = () => {
       <a
         className="midBtn"
         target="_blank"
-        href="https://www.facebook.com/A-Pra"
+        href="https://www.facebook.com/people/A-Pra%C3%A7a-Clube-de-Fitness/100061317712253/"
         rel="noreferrer"
       >
         CLIQUE AQUI
